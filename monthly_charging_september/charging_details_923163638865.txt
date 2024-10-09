@@ -1,0 +1,8 @@
+
+Client MSISDN: 923163638865
+
+Serial Number: 82
+Charging MSISDN: 923163638865
+Charging Result: `SC`00841.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=9999,DESC=number 3163638865 dont have enough balanceBFB4958C
+Status: Failed Charging
+--------------------------------------------------

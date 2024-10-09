@@ -1,0 +1,32 @@
+
+Client MSISDN: 923144353582
+
+Serial Number: 5
+Charging MSISDN: 923144353582
+Charging Result: `SC`00741.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=0000,DESC=successfully,FEE=302500   BFB4958C
+Status: Successful Charging
+--------------------------------------------------
+
+Serial Number: 6
+Charging MSISDN: 923144353582
+Charging Result: `SC`00741.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=0000,DESC=successfully,FEE=350000   BFB4958C
+Status: Successful Charging
+--------------------------------------------------
+
+Serial Number: 7
+Charging MSISDN: 923144353582
+Charging Result: `SC`00841.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=9999,DESC=number 3144353582 dont have enough balanceBFB4958C
+Status: Failed Charging
+--------------------------------------------------
+
+Serial Number: 8
+Charging MSISDN: 923144353582
+Charging Result: `SC`006C1.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=1001,DESC=not enough money  BFB4958C
+Status: Failed Charging
+--------------------------------------------------
+
+Serial Number: 9
+Charging MSISDN: 923144353582
+Charging Result: `SC`00841.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=9999,DESC=number 3144353582 dont have enough balanceBFB4958C
+Status: Failed Charging
+--------------------------------------------------

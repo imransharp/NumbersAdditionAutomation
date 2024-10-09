@@ -1,0 +1,8 @@
+
+Client MSISDN: 923171706989
+
+Serial Number: 117
+Charging MSISDN: 923171706989
+Charging Result: `SC`00741.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=0000,DESC=successfully,FEE=530000   BFB4958C
+Status: Successful Charging
+--------------------------------------------------

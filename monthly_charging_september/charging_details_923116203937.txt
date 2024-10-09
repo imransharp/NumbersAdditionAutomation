@@ -1,0 +1,8 @@
+
+Client MSISDN: 923116203937
+
+Serial Number: 133
+Charging MSISDN: 923116203937
+Charging Result: `SC`00741.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=0000,DESC=successfully,FEE=900000   BFB4958C
+Status: Successful Charging
+--------------------------------------------------

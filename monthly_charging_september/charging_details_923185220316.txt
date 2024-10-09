@@ -1,0 +1,14 @@
+
+Client MSISDN: 923185220316
+
+Serial Number: 19
+Charging MSISDN: 923185220316
+Charging Result: `SC`00741.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=0000,DESC=successfully,FEE=396000   BFB4958C
+Status: Successful Charging
+--------------------------------------------------
+
+Serial Number: 20
+Charging MSISDN: 923185220316
+Charging Result: `SC`00841.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=9999,DESC=number 3185220316 dont have enough balanceBFB4958C
+Status: Failed Charging
+--------------------------------------------------

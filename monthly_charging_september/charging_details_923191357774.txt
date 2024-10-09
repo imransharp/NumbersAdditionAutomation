@@ -1,0 +1,14 @@
+
+Client MSISDN: 923191357774
+
+Serial Number: 103
+Charging MSISDN: 923191357774
+Charging Result: `SC`00701.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=0000,DESC=successfully,FEE=40833BFB4958C
+Status: Successful Charging
+--------------------------------------------------
+
+Serial Number: 104
+Charging MSISDN: 923191357774
+Charging Result: `SC`00701.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=0000,DESC=successfully,FEE=90000BFB4958C
+Status: Successful Charging
+--------------------------------------------------

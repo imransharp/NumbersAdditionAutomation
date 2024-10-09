@@ -1,0 +1,14 @@
+
+Client MSISDN: 923124962130
+
+Serial Number: 29
+Charging MSISDN: 923124962130
+Charging Result: `SC`00701.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=0000,DESC=successfully,FEE=36750BFB4958C
+Status: Successful Charging
+--------------------------------------------------
+
+Serial Number: 30
+Charging MSISDN: 923124962130
+Charging Result: `SC`00741.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=0000,DESC=successfully,FEE=900000   BFB4958C
+Status: Successful Charging
+--------------------------------------------------

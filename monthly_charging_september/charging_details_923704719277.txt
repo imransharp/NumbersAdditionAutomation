@@ -1,0 +1,8 @@
+
+Client MSISDN: 923704719277
+
+Serial Number: 151
+Charging MSISDN: 923704719277
+Charging Result: `SC`006C1.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=1002,DESC=the userSts wrong BFB4958C
+Status: Failed Charging
+--------------------------------------------------

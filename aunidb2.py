@@ -73,30 +73,19 @@ def get_client_id(connection, client_name):
     else:
         print(f"No matching client found for '{client_name}'")
         return None
+    
 
-
-# Step 0: Insert employee into the employees table
-def insert_employee(connection, employee_name, employee_username, msisdn, client_id):
-    # Static values
-    employee_email = "lbs_employee@zong.com.pk"
-    is_lbs_enabled = 1
-    department_id = 0  # This will be updated later
-    is_employee = 1
-
-    # Check if employee already exists
-    if not check_if_employee_exists(connection, msisdn):
-        cursor = connection.cursor()
-        query = """
-            INSERT INTO employees (employee_name, employee_username, employee_email, 
-                                   is_lbs_enabled, department_id, is_employee, client_id)
-            VALUES (%s, %s, %s, %s, %s, %s, %s)
-        """
-        cursor.execute(query, (employee_name, employee_username, employee_email, 
-                               is_lbs_enabled, department_id, is_employee, client_id))
-        connection.commit()
-        print(f"Inserted employee {employee_name} with msisdn {msisdn} into employees")
+def get_department_id(connection, client_name):
+    cursor = connection.cursor()
+    query = "SELECT client_id FROM clients WHERE client_name LIKE %s"
+    cursor.execute(query, (f"%{client_name}%",))
+    result = cursor.fetchone()  # Fetch the first match
+    if result:
+        return result[0]  # Return the client_id
     else:
-        print(f"Employee with msisdn {msisdn} already exists in employees")
+        print(f"No matching client found for '{client_name}'")
+        return None
+
 
 
 # Step 4: Read numbers from the text file stored in D drive
@@ -111,10 +100,7 @@ def process_numbers():
 
     numbers = read_numbers_from_file('D:\\auto_upload_folder\\test.txt')  # Path to your file on D drive
 
-    # for number in numbers:
-    #     insert_number_to_whitelist(connection, number)
-
-# Get client name from console input
+    # Get client name from console input
     client_search_name = input("Enter the client name to search (e.g., 'Road Prince Group'): ")
 
     # Fetch ntn and client_name for the provided client name
@@ -123,28 +109,13 @@ def process_numbers():
     # Fetch client_id for the provided client name
     client_id = get_client_id(connection, client_search_name)
 
+
     if ntn and client_name:
         for number in numbers:
             insert_number_to_whitelist(connection, number)  # Insert into tbl_whitelist
 
             msisdn_with_prefix = f"92{number}"  # Prepend '92' for msisdn
-            insert_number_to_ntn_records(connection, msisdn_with_prefix, ntn, client_name)  # Insert into ntn_records
-
-            if client_id:                                
-                msisdn_with_prefix = f"92{number}"  # Prepend '92' for msisdn
-                # Insert into employees table
-                insert_employee(connection, msisdn_with_prefix, msisdn_with_prefix, msisdn_with_prefix, client_id)
-
-    # if client_id:
-    #     for number in numbers:
-    #         # Here, you can replace these placeholder employee_name and employee_username values with actual values
-    #         employee_name = number
-    #         employee_username = number
-            
-    #         msisdn_with_prefix = f"92{number}"  # Prepend '92' for msisdn
-
-    #         # Insert into employees table
-    #         insert_employee(connection, employee_name, employee_username, msisdn_with_prefix, client_id)
+            insert_number_to_ntn_records(connection, msisdn_with_prefix, ntn, client_name)  # Insert into ntn_records           
 
         connection.close()
 
