@@ -1,8 +1,0 @@
-
-Client MSISDN: 923144183118
-
-Serial Number: 53
-Charging MSISDN: 923144183118
-Charging Result: `SC`00741.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=0000,DESC=successfully,FEE=237500   BFB4958C
-Status: Successful Charging
---------------------------------------------------

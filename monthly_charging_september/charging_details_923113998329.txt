@@ -1,8 +1,0 @@
-
-Client MSISDN: 923113998329
-
-Serial Number: 106
-Charging MSISDN: 923113998329
-Charging Result: `SC`00741.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=0000,DESC=successfully,FEE=225000   BFB4958C
-Status: Successful Charging
---------------------------------------------------

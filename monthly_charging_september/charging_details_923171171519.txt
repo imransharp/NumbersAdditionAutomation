@@ -1,8 +1,0 @@
-
-Client MSISDN: 923171171519
-
-Serial Number: 94
-Charging MSISDN: 923171171519
-Charging Result: `SC`006C1.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=1001,DESC=not enough money  BFB4958C
-Status: Failed Charging
---------------------------------------------------

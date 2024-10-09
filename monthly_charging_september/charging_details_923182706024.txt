@@ -1,8 +1,0 @@
-
-Client MSISDN: 923182706024
-
-Serial Number: 80
-Charging MSISDN: 923182706024
-Charging Result: `SC`00741.00IDFFT001PPSPPS  00000001DLGCON    00000e0bTXEND     ACK: DEDUCTBALANCE:RETN=0000,DESC=successfully,FEE=432000   BFB4958C
-Status: Successful Charging
---------------------------------------------------
