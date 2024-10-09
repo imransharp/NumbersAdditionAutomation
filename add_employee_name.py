@@ -6,10 +6,7 @@ import pandas as pd
 # Connect to the MySQL database
 def connect_to_db():
     connection = mysql.connector.connect(
-        host="172.21.163.162",       # Replace with your MySQL host
-        user="root",                 # Replace with your MySQL username
-        password="Z0ng@311#315!",    # Replace with your MySQL password
-        database="jxb_zongtrack_lbsdev"  # Replace with your MySQL database name
+    
     )
     return connection
 
