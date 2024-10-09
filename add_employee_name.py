@@ -125,21 +125,7 @@ def process_numbers():
                         except Exception as e:
                             print(f"Failed to insert or update number {number_with_prefix}: {e}")
 
-                        # try:
-                        #     number = row['Number']
-                        #     name = row['Name']
-                        #     number_with_prefix = f"92{number}"  # Prepend '92' to the number
-                            
-                        #     insert_employee_query = f"""
-                        #         INSERT INTO employees (employee_name, employee_username, employee_email, employee_number,
-                        #         employee_password, is_lbs_enabled, is_employee, client_id, department_id, created_by)
-                        #         VALUES ('{name}', '{number_with_prefix}', 'lbs_employee@zong.com.pk', '{number_with_prefix}',
-                        #         '982f790301d0cf13cba2b52fc4add9168824e71d5debf19e24b87a2f3f0c4322', 1, 1, {client_id}, {department_id}, {created_by});
-                        #     """
-                        #     cursor.execute(insert_employee_query)
-                        #     print(f"Added employee: {name}, {number_with_prefix}")
-                        # except Exception as e:
-                        #     print(f"Failed to insert number {number_with_prefix}: {e}")
+                       
 
                     # Commit the transaction after inserting all numbers and names
                     connection.commit()
